@@ -30,18 +30,18 @@ class _Login extends State<Login> {
 //        automaticallyImplyLeading: false,
 //        centerTitle: true,
 //      ),
-      appBar: PreferredSize(
-          child: AppBar(
-            backgroundColor: Colors.white,
-            brightness: Brightness.light,
-            title: Center(
-              child: Text(
-                "登录",
-                style: TextStyle(color: Colors.blue),
-              ),
-            ),
-          ),
-          preferredSize: Size(double.infinity, 60)),
+//      appBar: PreferredSize(
+//          child: AppBar(
+//            backgroundColor: Colors.white,
+//            brightness: Brightness.light,
+//            title: Center(
+//              child: Text(
+//                "登录",
+//                style: TextStyle(color: Colors.blue),
+//              ),
+//            ),
+//          ),
+//          preferredSize: Size(double.infinity, 60)),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
